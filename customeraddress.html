@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Address</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/forms.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form  action="customerAddress.php" method="post" style="text-align: center;" enctype="multipart/form-data">
+					<label for="chk" aria-hidden="true">Address</label>
+				<input class="addstyle" type="text" name="Padd" placeholder="Primary address" required="required"> 
+				<input class= "addstyle" type="text" name="Hadd" placeholder="Home address" >
+				<input class="addstyle" type="text" name="Wadd" placeholder="Work address" > 
+				<br>
+				<input id="submit" type="submit" name="submit" value="Submit" class="button"><br>
+
+				</form>
+			</div>
+
+			
+	</div>
+</body>
+</html>

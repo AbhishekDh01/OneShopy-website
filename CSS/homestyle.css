@@ -1,0 +1,152 @@
+/* VARIABLES */
+/* BASE */
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0 20px;
+}
+
+.site-content {
+  padding-top: 66px;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 66px;
+  line-height: 66px;
+  color: #fff;
+  background-color: #302b63;
+}
+
+.header__logo {
+  font-weight: 700;
+  padding: 0 25px;
+  float: left;
+}
+
+img{
+  padding-top: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* MENU */
+.menu {
+  float: left;
+}
+.menu a {
+  padding: 0 10px;
+}
+.menu a:hover {
+  color: #c5cae9;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+  .site-pusher,
+  .site-container {
+    height: 100%;
+  }
+
+  img{
+  padding-top: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+  .site-container {
+    overflow: hidden;
+  }
+
+  .site-pusher {
+    transition-duration: 0.3s;
+    transform: translateX(0px);
+  }
+
+  .site-content {
+    position: absolute;
+    top: 66px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 0;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .header {
+    position: static;
+  }
+
+  .header__icon {
+    position: relative;
+    display: block;
+    float: left;
+    width: 50px;
+    height: 66px;
+    cursor: pointer;
+  }
+  .header__icon:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1rem;
+    height: 0;
+    top: 16px;
+    left: 15px;
+    box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
+  }
+
+  .menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #302b63;
+    /*    overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;*/
+    width: 250px;
+    transform: translateX(-250px);
+  }
+  .menu a {
+    display: block;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #302b63;
+  }
+
+  .with--sidebar .site-pusher {
+    transform: translateX(250px);
+  }
+  .with--sidebar .site-cache {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}

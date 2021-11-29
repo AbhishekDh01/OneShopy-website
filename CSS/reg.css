@@ -1,0 +1,53 @@
+body{
+	padding: 0;
+	background-color: rgb(240, 241, 166);
+}
+.right{
+	float: right;
+	text-align: center;
+}
+.right img{
+	width: 750px;
+	opacity: 0.9;
+	position: relative;
+}
+.reg{
+	padding-top: 50px;
+	/*position: fixed;*/
+	left: 900px;
+}
+.reg h1{
+	border-radius: 8px;
+	padding: 5px;
+	background-color: rgb(236, 52, 52);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(93, 230, 166);
+}
+.reg form{
+	width: 400px;
+	padding-top: 50px;
+	border-radius: 16px;
+	padding: 5px;
+	background-color: rgb(236, 52, 52);
+}
+.reg form input{
+	width: 70%;
+	font-size: larger;
+	margin: 10px auto;
+	padding: 2px;
+	border-radius: 5px;
+}
+#submit{
+	width: auto;
+}
+
+@media (min-width: 100px) and (max-width: 900px)  {
+ .reg{
+	padding-top: 50px;
+	position: fixed;
+	left: 0px;
+}
+
+}
+  
+}

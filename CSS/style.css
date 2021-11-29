@@ -1,0 +1,66 @@
+input[type=button], input[type=reset], input[type=submit], input[type=file]{
+    background-color: #8842d5;
+    border: none;
+    color: white;
+     text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer;  
+    font-size: 15px;
+    border-radius: 5px;
+}
+input,select,textarea{
+	margin: 4px 0;
+	width: 300px;
+	height: 35px;
+	box-sizing: border-box;
+
+}
+.submit{
+	width: 220px;
+}
+.left{
+	float: left;
+	clear: below;
+	height: 500px;
+	width: 280px;
+	margin-top: 10px;
+	border-radius: 25px;
+}
+.head{
+	height: 130px;
+	width: 100%;
+	border-radius: 25px;
+}
+		
+.buttonStyle{
+	border:none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	padding: 12px 28px;
+	width: 100px;
+	height: 60px;
+	border-radius: 10px;
+}
+.form{
+	margin-top: 12px;
+	height: 460px;
+	width: 400px;
+	float: right;
+	border-radius: 25px;
+}
+div{
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+
+/* CSS for register and login page  */
+
