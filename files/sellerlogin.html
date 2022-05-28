@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seller login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	
+	
+	<link rel="stylesheet" href="../CSS/homestyle.css">
+	<link rel="stylesheet" href="../CSS/myform.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
+</head>
+<body>
+
+
+	<div class="site-container">
+  		<div class="site-pusher">
+    
+   			 <header class="header">
+      
+      			<a href="#" class="header__icon" id="header__icon"></a>
+      
+      
+     			 <a href="#" class="header__logo__Pc nonClick">OneShopy</a>
+     			 <a href="#" class="header__logo__Mob nonClick">OneShopy</a>
+      
+     				 <nav class="menu">
+	        			<a href="../index.html">Home</a>
+				        <a href="customerlogin.html">Customer</a>
+				        <a href="sellerlogin.html">Seller</a>
+				        <a href="https://www.linkedin.com/in/abhidhiman01" target="_blank">Contact Us</a>
+      				</nav>
+      
+    		</header>
+
+    	<div class="site-content">
+   			<div class="container">
+
+				<div class="main">  	
+					
+						<form action="sellerLogin.php" method="post" style="text-align: center;">
+						<!-- <label for="chk" aria-hidden="true">Customer Login</label> -->
+						<h1>Seller Login</h1>
+						<div class="row">
+						<label for="email">Email</label>
+						<input type="email" name="email" placeholder="Email-id.." required="required">
+						</div>
+						<div class="row"> 	
+						<label for="password">Password</label>		
+						<input type="password" name="pass" placeholder="Password.." required="required">
+						</div>
+						<br>
+						<input id="submit" type="submit" name="login" value ="login" class="button">
+						<br>
+						<p style="color: black; margin-top: 6%;">Wanna register as a Seller?
+						<a href="sellerreg.html" class="sign">Click Here</a>
+						
+						</p>
+						</form>
+						
+				</div>  <!-- main -->
+
+			</div>
+			
+		</div> <!-- site content -->
+
+		<div class="site-cache" id="site-cache"></div> 
+
+</div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+</body>
+</html>

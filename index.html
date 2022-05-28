@@ -2,20 +2,29 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>OneShop</title>
+  <title>OneShopy</title>
   <link rel="stylesheet" href="CSS/homestyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
+  <style>
+    .noClick{
+      pointer-events: none;
+    }
+    .front{
+      padding: 28px; margin-top: 110px;
+    }
+    @media only screen and (max-width: 840px) {
+      .front{
+      padding: 28px; margin-top: 30%;
+    }
+    }
+  </style>
 
 </head>
 <body style="background: url(Images/index.jpeg)";>
 <!-- partial:index.partial.html -->
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
-  <style>
-  	.noClick{
-  		pointer-events: none;
-  	}
-  </style>
+  
 </head>
 
 <div class="site-container">
@@ -24,25 +33,33 @@
     <header class="header">
       
       <a href="#" class="header__icon" id="header__icon"></a>
-      <a href="#" class="header__logo noClick">OneShop</a>
+      
+      
+      <a href="#" class="header__logo__Pc nonClick">OneShopy</a>
+      <a href="#" class="header__logo__Mob nonClick">OneShopy</a>
       
       <nav class="menu">
+        
         <a href="index.html">Home</a>
-        <a href="customerlogin.html">Customer</a>
-        <a href="sellerlogin.html">Seller</a>
+        <a href="files/customerlogin.html">Customer</a>
+        <a href="files/sellerlogin.html">Seller</a>
         <a href="https://www.linkedin.com/in/abhidhiman01" target="_blank">Contact Us</a>
       </nav>
       
     </header>
 
     <div class="site-content">
-      <div class="container">
-        <figure>
+      <div class="container" style="margin-top: 0;">
+        <button onclick="location.href='files/customerlogin.html'; " class="front">
+        <p style="font-size: 150%; margin-top: 0; margin-bottom: 5px;">Customer</p>Wanna Buy Things?</button>
+        <button onclick="location.href='files/sellerlogin.html';" style="padding: 28px;">
+        <p style="font-size: 150%; margin-top: 0; margin-bottom: 5px;" >Seller</p>Wanna Sell Things?</button>
+        <!-- <figure>
           <a href="#" class="noClick" target="_blank">
             <img src="Images/logo.jpeg" alt="OneShop Image by Akash Unable To Show Due To Newtwork Error">
           </a>
           
-        </figure>    
+        </figure> -->    
       </div> <!-- END container -->
     </div> <!-- END site-content -->
     <div class="site-cache" id="site-cache"></div>

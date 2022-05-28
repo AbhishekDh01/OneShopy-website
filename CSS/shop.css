@@ -1,0 +1,67 @@
+.product{
+			/*height: 250px;
+			width: 180px;*/
+			/*size : 25%;*/
+			width: 40%;
+			
+			padding-top: 0;
+			padding-bottom: 7px;
+			margin-left: 3%;
+			margin-right: 3%;
+			margin-top: 2%;
+			margin-bottom: 3%;
+			box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+			border-radius: 25px;
+			float: left;
+			text-align: center;
+}
+.nonClick{
+			pointer-events: none;
+}
+.mybutton {
+  width: 40%;
+  float: left;
+  padding: 40px;
+  font-size: 150%;
+  background: #55D3AC;
+  height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 75px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 15%;
+  margin-left: 12.5%;
+  transition: background 0.2s ease-out;
+  box-shadow: 0 0 35px 0 rgba(42, 45, 48, 0.12);
+}
+
+.mybutton:hover {
+  
+   font-weight: bold;
+   color:#042e58;
+   
+}
+
+@media only screen and (max-width: 820px) {
+	.product{
+			/*height: 250px;
+			width: 180px;*/
+			/*size : 25%;*/
+			width: 89%;
+			
+			padding-top: 0%;
+			padding-bottom: 19px;
+			margin-left: 3%;
+			margin-right: 3%;
+			margin-top: 2%;
+			margin-bottom: 3%;
+			box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+			border-radius: 25px;
+			float: left;
+			text-align: center;
+}
+.nonClick{
+			pointer-events: none;
+}
+}
