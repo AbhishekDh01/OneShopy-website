@@ -22,6 +22,7 @@
 	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 	<link rel="stylesheet" href="../CSS/simpleProd.css">
 	<link rel="stylesheet" href="../CSS/myform.css">
+	<link href="../Images/favicon.ico" rel="icon" type="image/x-icon" />
 	<style >
 		div{
 			float: left;

@@ -11,6 +11,7 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
   <link rel="stylesheet" href="../CSS/simpleProd.css">
 	<link rel="stylesheet" href="../CSS/myform.css">
+	<link href="../Images/favicon.ico" rel="icon" type="image/x-icon" />
 	<style>
 		div{
 			/*height: 150px;

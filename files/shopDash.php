@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="../CSS/simpleProd.css">
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
+<link href="../Images/favicon.ico" rel="icon" type="image/x-icon" />
 	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 	<style>
 		.text{

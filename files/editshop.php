@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="../CSS/myform.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link href="../Images/favicon.ico" rel="icon" type="image/x-icon" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
 </head>
 
