@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Reg</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	
+	
+	<link rel="stylesheet" href="../CSS/homestyle.css">
+	<link rel="stylesheet" href="../CSS/myform.css">
+	<link href="../Images/favicon.ico" rel="icon" type="image/x-icon" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
+</head>
+<body>
+
+
+	<div class="site-container">
+  		<div class="site-pusher">
+    
+   			 <header class="header">
+      
+      			<a href="#" class="header__icon" id="header__icon"></a>
+      
+      
+     			 <a href="#" class="header__logo__Pc nonClick">OneShopy</a>
+     			 <a href="#" class="header__logo__Mob nonClick">OneShopy</a>
+      
+     				 <nav class="menu">
+	        			<a href="../index.html">Home</a>
+				        <a href="customerlogin.html">Customer</a>
+				        <a href="sellerlogin.html">Seller</a>
+				        <a href="https://www.linkedin.com/in/abhidhiman01" target="_blank">Contact Us</a>
+      				</nav>
+      
+    		</header>
+
+    	<div class="site-content">
+   			<div class="container">
+
+				<div class="main">  	
+					
+						<form  action="customerReg.php" method="post" style="text-align: center;" enctype="multipart/form-data">
+						<!-- <label for="chk" aria-hidden="true">Customer Login</label> -->
+						<h1>Customer Sign up</h1>
+						<div class="row Signup">
+						<input type="text" name="name" placeholder="Name.." required="required">
+						</div>
+						<div class="row Signup">
+						<input type="email" name="email" placeholder="Email-id.." required="required">	
+						</div>
+						<div class="row Signup"> 		
+						<input type="Password" id="pass" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" title="must content atleast 1 upper & 1 lower character and 1 number & 1 special character, min length : 8" name="password" placeholder="Password.." required="required">
+						</div>
+						<div class="row Signup">
+						<input type='text' id="matchText" name="confirm" placeholder="Confirm Password.." required="required" >	
+						</div>
+						<div class="row Signup">
+						<input type="number" name="contactNo" placeholder="Contact No.." required="required" minlength="10" maxlength="10" title="Contact number is not right" >
+						</div>
+						<br>
+						<input id="submit" type="submit" name="submit" value="Register"  class="button">
+						<br>
+						<p style="color: black; margin-top: 6%;">Already Registered?
+						<a href="customerlogin.html" class="sign">Login Here</a>
+						
+						</p>
+						</form>
+						
+				</div>  <!-- main -->
+
+			</div>
+			
+		</div> <!-- site content -->
+
+		<div class="site-cache" id="site-cache"></div>
+
+</div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+</body>
+</html>
+
+<script>
+	var password = document.getElementById("pass"), confirm_password = document.getElementById("matchText");
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Passwords Don't Match");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+</script>
