@@ -17,6 +17,13 @@ Website link : [OneShopy](https://oneshopy.in)
 
 If you have any suggestions or feedback you can reach out to me at abhiclass01@gmail.com
 
+## Badges
 
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/AbhishekDh01/OneShopy-website/blob/main/license)
+
+## Website images
 ![collage (1)](https://user-images.githubusercontent.com/75718742/171041243-59f61701-011b-400d-811b-d396f5f9d6c0.jpg)
+
+![GridArt_20220530_225342345](https://user-images.githubusercontent.com/75718742/171047312-c7c2c791-c06f-4145-a527-8e1bf960ccd1.jpg)
+
 ![IMG_20220530_225855](https://user-images.githubusercontent.com/75718742/171045516-c54c2e36-78da-4299-850a-3610686c5fd1.jpg)
