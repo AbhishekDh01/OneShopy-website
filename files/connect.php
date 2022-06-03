@@ -1,9 +1,8 @@
 <?php
-$servername = "localhost"; 
-$port_no = 3306; // Port number for Windows 
-$username = 'oneshopy_project';
-$password = 'Abhi2001$';
-$myDB = 'oneshopy_project'; 
+$servername = ""; // paste your server, username details here
+$username = ''; 
+$password = '';  
+$myDB = 'oneshopy_project'; // name your database same as this
 
 try{
 	 $conn = new PDO("mysql:host=$servername;dbname=$myDB", $username, $password);
