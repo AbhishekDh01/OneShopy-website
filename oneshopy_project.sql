@@ -6,6 +6,7 @@
 -- Generation Time: May 29, 2022 at 12:38 PM
 -- Server version: 5.7.24
 -- PHP Version: 7.4.1
+-- Name your database as oneshopy_project otherwise your have to change each mysql query
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
