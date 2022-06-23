@@ -1,7 +1,14 @@
 # OneShopy-website
 A dynamic & responsive website for buying and selling products. Shop owners can create a separate page for their website & offer their products on their page and customers can visit shops & buy products. Developed using **HTML, CSS, JS, PHP & MySQL**.
 
-Website link : [OneShopy](https://oneshopy.in)
+**Website link** : [OneShopy](https://oneshopy.in)
+
+## Steps to use this website locally :
+
+ - Download xampp (https://www.apachefriends.org/download.html).
+ - Unzip this folder in the path C:\xampp\htdocs
+ - Setup database in http://localhost/phpmyadmin/ and configure connect.php file located in files folder.
+ - Run on your localhost.
 
 ## Features
 - Sing-in and Sign-up using email id.
